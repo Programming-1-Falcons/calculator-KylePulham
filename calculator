@@ -1,0 +1,14 @@
+while True:
+    operation = (input("What mathmematical operation is being performed?: "))
+    first = float(input("What is the first number in the equation?: "))
+    second = float(input("Second number in the equation: "))
+    if operation == "multiplication":
+        print(str(first) + " x " + str(second) + " = "  + str(first * second))
+    if operation == "addition":
+        print(str(first) + " + " + str(second) + " = "  + str(first + second))
+    if operation == "subtraction":
+        print(str(first) + " - " + str(second) + " = "  + str(first - second))
+    if operation == "division":
+        print(str(first) + " / " + str(second) + " = "  + str(first / second))
+    if operation == "exponents":
+        print(str(first) + " ^ " + str(second) + " = "  + str(first ** second))
